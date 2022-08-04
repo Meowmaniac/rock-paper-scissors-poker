@@ -1,0 +1,19 @@
+{
+  "name": "rockpaperscissorspoker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run server dev",
+    "client": "npm run client start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.5.1",
+    "nanoid": "^3.1.30",
+    "solc": "^0.8.11",
+    "truffle": "^5.4.25"
+  }
+}
